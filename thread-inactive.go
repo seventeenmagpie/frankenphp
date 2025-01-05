@@ -34,6 +34,7 @@ func (handler *inactiveThread) beforeScriptExecution() string {
 		return ""
 	}
 	panic("unexpected state: " + thread.state.name())
+	return ""
 }
 
 func (thread *inactiveThread) afterScriptExecution(exitStatus int) {
