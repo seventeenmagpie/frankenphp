@@ -1,8 +1,8 @@
-module github.com/dunglas/frankenphp/caddy
+module github.com/seventeenmagpie/frankenphp/caddy
 
 go 1.22.7
 
-replace github.com/dunglas/frankenphp => ../
+replace github.com/seventeenmagpie/frankenphp => ../
 
 retract v1.0.0-rc.1 // Human error
 
